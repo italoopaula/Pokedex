@@ -84,7 +84,11 @@
     margin: .5rem;
     padding: 1rem;
     border-radius: 1rem;
-    
+    transition: all 0.2s;
+}
+
+.pokemon:hover{
+    transform: scale(1.12);
 }
 
 .pokemon .number {
@@ -147,6 +151,12 @@
     background-color: #6C79DB;
     border: none;
     border-radius: 1rem;
+    transition: all 0.2s;
+}
+
+.pagination button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 @media screen and (min-width: 380px) {
