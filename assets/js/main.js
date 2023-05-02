@@ -31,7 +31,7 @@ function loadModal(id) {
                 <div class="modal-body">
                     <div class="modal-detail">
                         <P>Base Experience <span class="modal-detail-text">${pokemon.baseExperience}</span></p>
-                        <p>Height <span class="modal-detail-text">${pokemon.height} cm</span></p>
+                        <p>Height <span class="modal-detail-text">${pokemon.height} m</span></p>
                         <p>Weight <span class="modal-detail-text">${pokemon.weight.toFixed(1)} kg</span></p>
                         <p>Abilities <span class="modal-detail-text">${pokemon.abilities}</span></p>
                     </div>
